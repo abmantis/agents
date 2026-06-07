@@ -3,6 +3,7 @@
 ## General
 
 - Keep your responses consise and to the point. Avoid extra explanations or details unless explicitly asked for.
+- Use direct, objective, and technical language. Avoid idiomatic, flowery, or colloquial expressions.
 
 ## Environment
 
