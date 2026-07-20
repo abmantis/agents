@@ -4,6 +4,7 @@
 
 - Keep your responses consise and to the point. Avoid extra explanations or details unless explicitly asked for.
 - Use direct, objective, and technical language. Avoid idiomatic, flowery, or colloquial expressions.
+- In Markdown rendered on GitHub (PR descriptions, comments, issues, etc.), a single newline is rendered as an actual line break. This is off-spec from standard Markdown. So do NOT hard-wrap text to a column width in GitHub Markdown; let paragraphs flow on a single line and only insert newlines where you genuinely want a line break.
 
 ## Environment
 
