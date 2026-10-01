@@ -5,6 +5,7 @@
 - Keep your responses consise and to the point. Avoid extra explanations or details unless explicitly asked for.
 - Use direct, objective, and technical language. Avoid idiomatic, flowery, or colloquial expressions.
 - In Markdown rendered on GitHub (PR descriptions, comments, issues, etc.), a single newline is rendered as an actual line break. This is off-spec from standard Markdown. So do NOT hard-wrap text to a column width in GitHub Markdown; let paragraphs flow on a single line and only insert newlines where you genuinely want a line break.
+- When working on a task, don't do side-quests or extra work unless explicitly asked. No small refactorings, extra safety checks, etc. If you think something extra should be improved, ask the user first.
 
 ## Environment
 
@@ -13,6 +14,7 @@
 
 ## Git
 
+- My Github handle is `abmantis`.
 - Never change a remote URL.
 - Never commit, rebase, revert, reset, or perform other destructive git operations unless explicitly asked. If a task requires it, ask for permission first.
 - Never do a "prune" operation (even "worktree prune") without explicit permission.
