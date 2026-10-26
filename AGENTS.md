@@ -18,5 +18,6 @@
 - Never change a remote URL.
 - Never commit, rebase, revert, reset, or perform other destructive git operations unless explicitly asked. If a task requires it, ask for permission first.
 - Never do a "prune" operation (even "worktree prune") without explicit permission.
-- When interacting with github, use the GitHub CLI tool (gh) to checkout or create pull requests, etc. Always ASK FOR CONFIRMATION before performing any action on GitHub.
+- When interacting with github, use the GitHub CLI tool (gh) to checkout or create pull requests, etc. Always ASK FOR CONFIRMATION before performing any action on GitHub that is not read-only.
+- If Github pull request creation fails, provide a command that the user can run manually instead, like: `gh pr create --title "..." --body-file ...`.
 - When commiting or asked for a commit message, always use the imperative mood. Be sucint and straight to the point. Only add a description if its a complex commit with multiple details.
